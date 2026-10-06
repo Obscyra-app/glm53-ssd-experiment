@@ -1,0 +1,55 @@
+{
+  "hardware": {
+    "computer": "MacBook Air M3",
+    "physical_ram_gb": 16,
+    "storage": "external ADATA LEGEND 960 MAX in UGREEN CM847"
+  },
+  "profile": {
+    "engine_ram_gib": 6,
+    "context_tokens": 1536,
+    "compute_threads": 4,
+    "io_threads": 2,
+    "io_depth": 2,
+    "lookahead": 6,
+    "cache_policy": "LFRU",
+    "temperature": 0,
+    "seed": 42,
+    "reasoning_effort": "low",
+    "verify_records": true
+  },
+  "date": "2026-10-06",
+  "scope": "limited local functional smoke tests, no general accuracy or source-quality parity claim",
+  "coding_series": {
+    "tasks": 3,
+    "functional_checks_passed": 24,
+    "format_violations": 2,
+    "decode_tok_s_range": [
+      0.653,
+      0.681
+    ]
+  },
+  "recorded_ui_request": {
+    "input_tokens": 298,
+    "generated_tokens": 106,
+    "first_visible_s": 514.4785178,
+    "wall_s": 704.5972369,
+    "native_decode_s": 195.908137,
+    "decode_tok_s": 0.5410699199,
+    "peak_rss_bytes": 5907431424,
+    "swap_growth_bytes": 0,
+    "functional_checks_passed": 10
+  },
+  "long_input_retrieval": {
+    "input_tokens": 1496,
+    "generated_tokens": 8,
+    "wall_s": 2291.875
+  },
+  "throughput_definition": "generated tokens including reasoning/control markers divided by native decode time; excludes prefill",
+  "limitations": [
+    "not a controlled cross-hardware comparison",
+    "UI recording and earlier coding requests are different runs; no causal slowdown attribution",
+    "no BF16/FP8 baseline or perplexity measurement",
+    "text only validated",
+    "small functional examples do not establish general coding quality"
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "passed": 22,
+  "total": 22,
+  "cases": [
+    {
+      "task": "merge_intervals",
+      "case": 1,
+      "passed": true,
+      "result": [],
+      "expected": [],
+      "input_unchanged": true
+    },
+    {
+      "task": "merge_intervals",
+      "case": 2,
+      "passed": true,
+      "result": [
+        [
+          1,
+          3
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          3
+        ]
+      ],
+      "input_unchanged": true
+    },
+    {
+      "task": "merge_intervals",
+      "case": 3,
+      "passed": true,
+      "result": [
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "input_unchanged": true
+    },
+    {
+      "task": "merge_intervals",
+      "case": 4,
+      "passed": true,
+      "result": [
+        [
+          1,
+          4
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          4
+        ]
+      ],
+      "input_unchanged": true
+    },
+    {
+      "task": "merge_intervals",
+      "case": 5,
+      "passed": true,
+      "result": [
+        [
+          1,
+          4
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          4
+        ]
+      ],
+      "input_unchanged": true
+    },
+    {
+      "task": "merge_intervals",
+      "case": 6,
+      "passed": true,
+      "result": [
+        [
+          1,
+          5
+        ],
+        [
+          9,
+          12
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          5
+        ],
+        [
+          9,
+          12
+        ]
+      ],
+      "input_unchanged": true
+    },
+    {
+      "task": "merge_intervals",
+      "case": 7,
+      "passed": true,
+      "result": [
+        [
+          -5,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "expected": [
+        [
+          -5,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "input_unchanged": true
+    },
+    {
+      "task": "merge_intervals",
+      "case": 8,
+      "passed": true,
+      "result": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "input_unchanged": true
+    },
+    {
+      "task": "merge_intervals",
+      "case": 9,
+      "passed": true,
+      "result": [
+        [
+          1,
+          9
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          9
+        ]
+      ],
+      "input_unchanged": true
+    },
+    {
+      "task": "merge_intervals",
+      "case": 10,
+      "passed": true,
+      "result": [
+        [
+          -1000000000000,
+          -999999999999
+        ],
+        [
+          1000000000000,
+          1000000000001
+        ]
+      ],
+      "expected": [
+        [
+          -1000000000000,
+          -999999999999
+        ],
+        [
+          1000000000000,
+          1000000000001
+        ]
+      ],
+      "input_unchanged": true
+    },
+    {
+      "task": "first_unique",
+      "case": 1,
+      "passed": true,
+      "result": null,
+      "expected": null,
+      "input_unchanged": true
+    },
+    {
+      "task": "first_unique",
+      "case": 2,
+      "passed": true,
+      "result": "a",
+      "expected": "a",
+      "input_unchanged": true
+    },
+    {
+      "task": "first_unique",
+      "case": 3,
+      "passed": true,
+      "result": null,
+      "expected": null,
+      "input_unchanged": true
+    },
+    {
+      "task": "first_unique",
+      "case": 4,
+      "passed": true,
+      "result": "b",
+      "expected": "b",
+      "input_unchanged": true
+    },
+    {
+      "task": "first_unique",
+      "case": 5,
+      "passed": true,
+      "result": "w",
+      "expected": "w",
+      "input_unchanged": true
+    },
+    {
+      "task": "first_unique",
+      "case": 6,
+      "passed": true,
+      "result": "e",
+      "expected": "e",
+      "input_unchanged": true
+    },
+    {
+      "task": "first_unique",
+      "case": 7,
+      "passed": true,
+      "result": "a",
+      "expected": "a",
+      "input_unchanged": true
+    },
+    {
+      "task": "first_unique",
+      "case": 8,
+      "passed": true,
+      "result": "я",
+      "expected": "я",
+      "input_unchanged": true
+    },
+    {
+      "task": "first_unique",
+      "case": 9,
+      "passed": true,
+      "result": "🙃",
+      "expected": "🙃",
+      "input_unchanged": true
+    },
+    {
+      "task": "first_unique",
+      "case": 10,
+      "passed": true,
+      "result": "c",
+      "expected": "c",
+      "input_unchanged": true
+    },
+    {
+      "task": "first_unique",
+      "case": 11,
+      "passed": true,
+      "result": "a",
+      "expected": "a",
+      "input_unchanged": true
+    },
+    {
+      "task": "first_unique",
+      "case": 12,
+      "passed": true,
+      "result": "a",
+      "expected": "a",
+      "input_unchanged": true
+    }
+  ]
+}

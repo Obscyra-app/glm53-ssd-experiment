@@ -1,0 +1,30 @@
+{
+  "base_model": "zai-org/GLM-5.3-Flash",
+  "base_revision": "eb9eb208eb0d988989d07a6a12d0fdeb5f52574a",
+  "engine": "sqliteai/warp",
+  "engine_commit": "09fcff352ca55223b08ee222d15054b90546c6a9",
+  "engine_version": "0.8.1",
+  "format": "WARP .waste",
+  "expert_quantization": "VQ3R (3 bits per weight plus scales/codebooks)",
+  "trunk_quantization": "Q4G/Q8G",
+  "container_bytes": 119962584020,
+  "container_files": 50,
+  "tested_hardware": "MacBook Air M3 16 GB; external SSD",
+  "tested_profile": {
+    "engine_ram_gib": 6,
+    "context_tokens": 1536,
+    "compute_threads": 4,
+    "io_threads": 2,
+    "io_depth": 2,
+    "lookahead": 6,
+    "cache_policy": "LFRU",
+    "temperature": 0,
+    "seed": 42,
+    "reasoning_effort": "low",
+    "verify_records": true
+  },
+  "capabilities_tested": [
+    "text"
+  ],
+  "broad_quality_parity_verified": false
+}

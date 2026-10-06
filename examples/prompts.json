@@ -1,0 +1,4 @@
+[
+ {"id":"merge_intervals","prompt":"Python only: implement merge_intervals(intervals). Input: list of [start,end] ints with start<=end, arbitrary order. Merge overlapping or touching intervals; return sorted list of lists. Empty input -> []. Do not modify input. No imports. Return only the function."},
+ {"id":"first_unique","prompt":"Python only: implement first_unique(s): return the first character occurring exactly once, or None. Case sensitive; Unicode allowed. O(n) time. No imports. Return only the function."}
+]

@@ -1,0 +1,47 @@
+{
+  "tasks": {
+    "merge_intervals": {
+      "prompt_tokens": 67,
+      "generated_tokens": 103,
+      "wall_s": 264.4919473330374,
+      "decode_s": 179.7340429999167,
+      "decode_tok_s": 0.5730689538878716,
+      "first_callback_s": 85.92511529102921,
+      "reasoning_closed": true,
+      "hit_token_limit": false,
+      "decode_hit_pct": 50.04623208506704,
+      "code_sha256": "01024ce45e06fae759e8a334d8e23a9e52318f34013218cb9d344bc848498b03"
+    },
+    "first_unique": {
+      "prompt_tokens": 50,
+      "generated_tokens": 60,
+      "wall_s": 155.53978091699537,
+      "decode_s": 85.2646090000635,
+      "decode_tok_s": 0.7036917274781066,
+      "first_callback_s": 71.57479404198239,
+      "reasoning_closed": true,
+      "hit_token_limit": false,
+      "decode_hit_pct": 50.32738095238095,
+      "code_sha256": "60bbfb17795008fd7cec7a076c44b5df7ad9d444dfed5eaa17d3ab1991b7561a"
+    }
+  },
+  "validation": {
+    "passed": 22,
+    "total": 22,
+    "code_unchanged_from_model": true,
+    "scope": "Two simple Python functions, not a general coding benchmark",
+    "complexity_review": "first_unique uses two linear passes and a dict, expected O(n) time; merge_intervals sorts then scans"
+  },
+  "run": {
+    "stage": "COMPLETE",
+    "updated_utc": "2026-10-05T18:41:20.262169+00:00",
+    "elapsed_s": 421.8814289569855,
+    "peak_rss_bytes": 5905547264,
+    "peak_swap_growth_bytes": 0,
+    "returncode": 0
+  },
+  "runtime": "WARP C/NEON; one resident engine; serial independent requests; official Low effort; budget6GiB; ctx1536; 4threads; CRC on",
+  "batch_speedup_measured": false,
+  "binary_sha256": "708e7e6844abf2ccc9b8e7688ea638c2e155ed320f425be554e5c239d583f17d",
+  "provenance_note": "Successful Low-reasoning retry, not first-attempt success. An earlier default-reasoning attempt exhausted 384 output tokens without final code; a Low-client setup error was corrected before this run."
+}

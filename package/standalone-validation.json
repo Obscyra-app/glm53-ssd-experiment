@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-06",
+  "prompt": "Reply exactly: OK",
+  "answer": "OK",
+  "metrics": [
+    {
+      "complete": true,
+      "input_tokens": 16,
+      "generated_tokens": 3,
+      "first_visible_s_including_load": 26.492217624909244,
+      "wall_s": 27.759619541931897,
+      "decode_tok_s": 0.7838983106402561
+    },
+    {
+      "peak_rss_bytes": 5903941632,
+      "peak_swap_growth_bytes": 0
+    }
+  ],
+  "scope": "one real single-request smoke with pinned already-built WARP; not a clean machine build test"
+}

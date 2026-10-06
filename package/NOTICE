@@ -1,0 +1,5 @@
+Base model: GLM-5.3-Flash, Copyright (c) 2026 Z.AI Co., Ltd, MIT license (LICENSE).
+Community conversion and packaging by Nurymanau. No affiliation or endorsement implied.
+The WARP engine and VQ3R converter are by SQLite Cloud, Inc., Apache-2.0.
+WARP is obtained separately from https://github.com/sqliteai/warp .
+The quickstart.py and verify.py packaging helpers are released under MIT; Copyright (c) 2026 Nurymanau.
